@@ -1,0 +1,16 @@
+{
+  "anggaran": [
+    {
+      "id": 1,
+      "nama_anggaran": "Infrastruktur",
+      "penanggung_jawab": "Fadli",
+      "jumlah_anggaran": 100000
+    },
+    {
+      "id": 2,
+      "nama_anggaran": "Aplikasi",
+      "penanggung_jawab": "Rajab",
+      "jumlah_anggaran": "300000"
+    }
+  ]
+}

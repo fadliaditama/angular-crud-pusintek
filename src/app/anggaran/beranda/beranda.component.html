@@ -1,0 +1,51 @@
+<div class='container mx-auto py-10'>
+        <div class='pb-10'>
+            <h1 class='text-center font-bold text-2xl uppercase'>Daftar Dana Anggaran</h1>
+        </div>
+        <div class='pb-3'>
+            <a routerLink="/anggaran/add-anggaran" class='bg-blue-700 hover:bg-blue-800 text-white py-2 px-4 rounded'>Tambah Data</a>
+        </div>
+        <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+            <table class="w-full text-sm text-left text-gray-500 ">
+                <thead class="text-xs text-white uppercase bg-black ">
+                    <tr>
+                        <th scope="col" class="px-6 py-3">
+                            No.
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            Nama Anggaran
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            Penanggung Jawab
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            Jumlah Anggaran
+                        </th>
+                        <th scope="col" class="text-right px-12">
+                            Aksi
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="bg-slate-800 text-white border-b hover:bg-gray-700" *ngFor="let item of allModelAnggaran">
+                        <td class="px-6 py-3">
+                        {{ item.id }}
+                        </td>
+                        <td class='px-6 py-4'>
+                            {{ item.nama_anggaran }}
+                        </td>
+                        <td class="px-6 py-4">
+                            {{ item.penanggung_jawab }}
+                        </td>
+                        <td class="px-6 py-4">
+                            {{ item.jumlah_anggaran }}
+                        </td>
+                        <td class="px-6 py-4 text-right">
+                            <a routerLink="" class="font-medium text-blue-600 hover:underline px-5">Edit</a>
+                            <button class="font-medium text-red-600 hover:underline">Hapus</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
