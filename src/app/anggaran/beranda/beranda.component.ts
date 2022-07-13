@@ -23,4 +23,5 @@ export class BerandaComponent implements OnInit {
       })
   }
 
+
 }

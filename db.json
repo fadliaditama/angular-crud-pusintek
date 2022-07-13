@@ -11,6 +11,24 @@
       "nama_anggaran": "Aplikasi",
       "penanggung_jawab": "Rajab",
       "jumlah_anggaran": "300000"
+    },
+    {
+      "id": 3,
+      "nama_anggaran": "Jalan",
+      "penanggung_jawab": "Diazq",
+      "jumlah_anggaran": "382138317821"
+    },
+    {
+      "id": 4,
+      "nama_anggaran": "walangzzzzzz",
+      "penanggung_jawab": "oiqwue",
+      "jumlah_anggaran": 1029323232
+    },
+    {
+      "id": 5,
+      "nama_anggaran": "aaaaaa",
+      "penanggung_jawab": "tttaaaaaaadsaasa",
+      "jumlah_anggaran": 12313123212222
     }
   ]
 }
